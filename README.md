@@ -1,1 +1,1 @@
-# vlmsareblind.github.io
+# sustainability-lab.github.io/brick-kilns
