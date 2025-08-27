@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Brick Kilns Detection Project'
 theme = 'brick-theme'
 
+# Disable RSS feeds completely
+disableKinds = ['RSS', 'sitemap', 'robotsTXT', 'taxonomy', 'term']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -11,14 +14,6 @@ theme = 'brick-theme'
 [params]
   description = 'Automated detection and monitoring of brick kilns using satellite imagery and AI'
   author = 'Sustainability Lab'
-
-# Disable RSS feeds to avoid template errors
-disableKinds = ['RSS', 'taxonomy', 'term']
-
-# Author configuration for RSS (if needed in future)
-[author]
-  name = 'Sustainability Lab'
-  email = 'noreply@iitgn.ac.in'
 
 [menu]
   [[menu.main]]
