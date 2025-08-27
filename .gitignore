@@ -1,1 +1,48 @@
+# Hugo build outputs (specific to hugo-site folder)
+hugo-site/public/
+hugo-site/resources/
+
+# Hugo cache
+hugo-site/.hugo_build.lock
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node modules (if using npm/yarn)
+node_modules/
+hugo-site/node_modules/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup files
+*.bak
+*.backup
+
+# Ignore other project artifacts from previous attempts
+site/
+quarto-site/

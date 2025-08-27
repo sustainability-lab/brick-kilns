@@ -1,0 +1,30 @@
+baseURL = 'https://sustainability-lab.github.io/brick-kilns/'
+languageCode = 'en-us'
+title = 'Brick Kilns Detection Project'
+theme = 'brick-theme'
+
+[params]
+  description = 'Automated detection and monitoring of brick kilns using satellite imagery and AI'
+  author = 'Sustainability Lab'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Dataset'
+    url = '/dataset/'
+    weight = 2
+  [[menu.main]]
+    name = 'Method'
+    url = '/method/'
+    weight = 3
+  [[menu.main]]
+    name = 'Results'
+    url = '/results/'
+    weight = 4
+  [[menu.main]]
+    name = 'Analysis'
+    url = '/analysis/'
+    weight = 5

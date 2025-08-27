@@ -1,0 +1,74 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+        <h1 class="text-4xl font-bold text-gray-900 mb-6 leading-tight">
+            {{ .Title }}
+            <img src="/bk_images/brick.svg" alt="Brick Icon" class="inline-block h-12 ml-2">
+        </h1>
+        
+        <!-- Authors -->
+        <div class="text-lg mb-6">
+            {{ range $index, $author := .Params.authors }}
+                {{ if $index }}, {{ end }}
+                {{ if $author.url }}
+                    <a href="{{ $author.url }}" class="text-blue-600 hover:text-blue-800">{{ $author.name }}</a>
+                {{ else }}
+                    <span>{{ $author.name }}</span>
+                {{ end }}
+            {{ end }}
+        </div>
+        
+        <!-- Institution and Publication -->
+        <div class="text-gray-600 mb-4">{{ .Params.institution }}</div>
+        <div class="text-gray-600 mb-8">{{ .Params.publication }}</div>
+        
+        <!-- Links -->
+        <div class="flex justify-center space-x-4 mb-12">
+            <a href="{{ .Params.paper_url }}" class="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700">
+                📄 Paper (ArXiv)
+            </a>
+            <a href="{{ .Params.code_url }}" class="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700">
+                💻 Code
+            </a>
+            <a href="{{ .Params.dataset_url }}" class="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700">
+                🤗 Dataset
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Abstract -->
+<section id="abstract" class="bg-gray-50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Abstract</h2>
+        <div class="content text-justify">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+<!-- Key Metrics -->
+<section class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+            <div class="p-6">
+                <div class="text-4xl font-bold text-orange-600 mb-2">30,638</div>
+                <div class="text-gray-600 text-lg">Kilns Detected</div>
+            </div>
+            <div class="p-6">
+                <div class="text-4xl font-bold text-orange-600 mb-2">0.71</div>
+                <div class="text-gray-600 text-lg">mAP Score</div>
+            </div>
+            <div class="p-6">
+                <div class="text-4xl font-bold text-orange-600 mb-2">448M</div>
+                <div class="text-gray-600 text-lg">Population Area</div>
+            </div>
+            <div class="p-6">
+                <div class="text-4xl font-bold text-orange-600 mb-2">70%</div>
+                <div class="text-gray-600 text-lg">Violations Found</div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
