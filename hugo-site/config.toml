@@ -17,6 +17,10 @@ disableKinds = ['RSS', 'sitemap', 'robotsTXT', 'taxonomy', 'term']
 
 [menu]
   [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 0
+  [[menu.main]]
     name = 'Abstract'
     url = '/abstract/'
     weight = 1
