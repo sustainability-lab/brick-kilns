@@ -2,7 +2,7 @@
 title: "Big Data Resources"
 ---
 
-![Big Data Resources](bk_images/big-data.png)
+![Big Data Resources](/brick-kilns/bk_images/big-data.png)
 
 ## Satellite Imagery
 

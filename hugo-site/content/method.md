@@ -2,7 +2,7 @@
 title: "Model Selection and Results"
 ---
 
-![Model Selection and Results](bk_images/model-selection-results.png)
+![Model Selection and Results](/brick-kilns/bk_images/model-selection-results.png)
 
 ## Model Architecture
 
@@ -65,9 +65,9 @@ CFCBKs are most densely located in Punjab and Haryana, with fewer present in oth
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <th><img src="bk_images/kiln_locations_CFCBK.png" alt="CFCBK locations" style="width: 250px;"></th>
-    <th><img src="bk_images/kiln_locations_FCBK.png" alt="FCBK locations" style="width: 250px;"></th>
-    <th><img src="bk_images/kiln_locations_Zigzag.png" alt="Zigzag locations" style="width: 250px;"></th>
+    <th><img src="/brick-kilns/bk_images/kiln_locations_CFCBK.png" alt="CFCBK locations" style="width: 250px;"></th>
+    <th><img src="/brick-kilns/bk_images/kiln_locations_FCBK.png" alt="FCBK locations" style="width: 250px;"></th>
+    <th><img src="/brick-kilns/bk_images/kiln_locations_Zigzag.png" alt="Zigzag locations" style="width: 250px;"></th>
   </tr>
   <tr align="center">
     <td>CFCBKs</td>
@@ -84,9 +84,9 @@ Below, we present a district-wise comparison of brick kiln counts derived from t
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr align="center">
-    <td><img src="bk_images/brick_kilns_survey_counts.png" alt="Survey counts" style="width: 250px;">(a)</td>
-    <td><img src="bk_images/brick_kilns_our_counts.png" alt="Our counts" style="width: 250px;">(b)</td>
-    <td><img src="bk_images/brick_kilns_comparison.png" alt="Comparison" style="width: 250px;">(c)</td>
+    <td><img src="/brick-kilns/bk_images/brick_kilns_survey_counts.png" alt="Survey counts" style="width: 250px;">(a)</td>
+    <td><img src="/brick-kilns/bk_images/brick_kilns_our_counts.png" alt="Our counts" style="width: 250px;">(b)</td>
+    <td><img src="/brick-kilns/bk_images/brick_kilns_comparison.png" alt="Comparison" style="width: 250px;">(c)</td>
   </tr>
 </table>
 

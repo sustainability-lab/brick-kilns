@@ -2,7 +2,7 @@
 title: "Brick Kiln Dataset"
 ---
 
-![Brick Kiln Dataset](bk_images/brick.svg)
+![Brick Kiln Dataset](/brick-kilns/bk_images/brick.svg)
 
 ## Initial Dataset Selection
 
@@ -45,8 +45,8 @@ The annotation process involves labeling brick kilns with oriented bounding boxe
 
 ### Illustration of the labeling process
 
-<img src="bk_images/labeling_grid.png" alt="Grid for annotation" style="width: 45%; margin-right: 5%;">
-<img src="bk_images/labeling_kiln.png" alt="Labeling a kiln" style="width: 45%;">
+<img src="/brick-kilns/bk_images/labeling_grid.png" alt="Grid for annotation" style="width: 45%; margin-right: 5%;">
+<img src="/brick-kilns/bk_images/labeling_kiln.png" alt="Labeling a kiln" style="width: 45%;">
 
 **Fig 1:** (a) Grid for annotation (b) Labeling a kiln
 
@@ -58,28 +58,28 @@ We develop a comprehensive dataset containing a total of **30,638 hand-validated
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <th><img src="bk_images/CFCBK_106.png" alt="CFCBK 1" style="width: 100px;"></th>
-    <th><img src="bk_images/CFCBK_12.png" alt="CFCBK 2" style="width: 100px;"></th>
-    <th><img src="bk_images/CFCBK_131.png" alt="CFCBK 3" style="width: 100px;"></th>
-    <th><img src="bk_images/CFCBK_39.png" alt="CFCBK 4" style="width: 100px;"></th>
-    <th><img src="bk_images/CFCBK_5.png" alt="CFCBK 5" style="width: 100px;"></th>
-    <th><img src="bk_images/CFCBK_50.png" alt="CFCBK 6" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/CFCBK_106.png" alt="CFCBK 1" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/CFCBK_12.png" alt="CFCBK 2" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/CFCBK_131.png" alt="CFCBK 3" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/CFCBK_39.png" alt="CFCBK 4" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/CFCBK_5.png" alt="CFCBK 5" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/CFCBK_50.png" alt="CFCBK 6" style="width: 100px;"></th>
   </tr>
   <tr>
-    <th><img src="bk_images/FCBK_0.png" alt="FCBK 1" style="width: 100px;"></th>
-    <th><img src="bk_images/FCBK_1.png" alt="FCBK 2" style="width: 100px;"></th>
-    <th><img src="bk_images/FCBK_10.png" alt="FCBK 3" style="width: 100px;"></th>
-    <th><img src="bk_images/FCBK_13.png" alt="FCBK 4" style="width: 100px;"></th>
-    <th><img src="bk_images/FCBK_14.png" alt="FCBK 5" style="width: 100px;"></th>
-    <th><img src="bk_images/FCBK_17.png" alt="FCBK 6" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/FCBK_0.png" alt="FCBK 1" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/FCBK_1.png" alt="FCBK 2" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/FCBK_10.png" alt="FCBK 3" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/FCBK_13.png" alt="FCBK 4" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/FCBK_14.png" alt="FCBK 5" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/FCBK_17.png" alt="FCBK 6" style="width: 100px;"></th>
   </tr>
   <tr>
-    <th><img src="bk_images/Zigzag_11.png" alt="Zigzag 1" style="width: 100px;"></th>
-    <th><img src="bk_images/Zigzag_16.png" alt="Zigzag 2" style="width: 100px;"></th>
-    <th><img src="bk_images/Zigzag_18.png" alt="Zigzag 3" style="width: 100px;"></th>
-    <th><img src="bk_images/Zigzag_2.png" alt="Zigzag 4" style="width: 100px;"></th>
-    <th><img src="bk_images/Zigzag_20.png" alt="Zigzag 5" style="width: 100px;"></th>
-    <th><img src="bk_images/Zigzag_22.png" alt="Zigzag 6" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/Zigzag_11.png" alt="Zigzag 1" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/Zigzag_16.png" alt="Zigzag 2" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/Zigzag_18.png" alt="Zigzag 3" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/Zigzag_2.png" alt="Zigzag 4" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/Zigzag_20.png" alt="Zigzag 5" style="width: 100px;"></th>
+    <th><img src="/brick-kilns/bk_images/Zigzag_22.png" alt="Zigzag 6" style="width: 100px;"></th>
   </tr>
 </table>
 

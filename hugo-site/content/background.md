@@ -2,7 +2,7 @@
 title: "Background Study"
 ---
 
-![Background Study](bk_images/study.svg)
+![Background Study](/brick-kilns/bk_images/study.svg)
 
 ## Brick Kilns
 
