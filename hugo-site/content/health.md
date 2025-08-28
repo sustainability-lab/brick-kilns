@@ -2,7 +2,7 @@
 title: "Air Pollution and Health Effects"
 ---
 
-![Air Pollution and Health Effects](/bk_images/air%20pollution.svg)
+![Air Pollution and Health Effects](bk_images/air%20pollution.svg)
 
 ## Air Pollution Impact
 

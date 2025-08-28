@@ -2,7 +2,7 @@
 title: "Validation and Automatic Compliance Monitoring"
 ---
 
-![Compliance Monitoring](/bk_images/compliance.svg)
+![Compliance Monitoring](bk_images/compliance.svg)
 
 ## Automatic Compliance Monitoring
 
